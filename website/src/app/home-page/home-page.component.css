@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.main-text {
+    top: 50%;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 16vw;
+    font-weight: bold;
+    color: #fff;
+    margin: 5% auto 0% auto;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(255, 0, 0),
+        0 0 82px rgb(255, 128, 0),
+        0 0 92px rgb(255, 255, 0),
+        0 0 102px rgb(0, 128, 255),
+        0 0 151px rgb(0, 0, 255);
+}
+
+.main-picture {
+    top: 50%;
+    display: block;
+    margin: auto;
+    margin-top: -18%;
+    width: 20%;
+}
+
+.apple {
+    top: 50%;
+    display: block;
+    margin: -12.7% 0 0 51%;
+    width: 10%;
+}
+
+.sliced-apple {
+    top: 50%;
+    display: block;
+    margin: -25% 10% 10% 39%;
+    width: 15%;
+}
+
+.leaf {
+    top: 50%;
+    display: block;
+    margin: -35% 0 0 5%;
+    width: 8%;
+}
+
+.leaf2 {
+    top: 50%;
+    display: block;
+    margin: 16% 0 0 -5%;
+    width: 30%;
+    filter: blur(4px);
+}
+
+.leaf3 {
+    top: 50%;
+    display: block;
+    margin: -40% 0 0 85%;
+    width: 10%;
+}
+
+.leaf4 {
+    top: 50%;
+    display: block;
+    margin: 20% 0 5% 75%;
+    width: 20%;
+    filter: blur(4px);
+    transform: rotate(340deg);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  #prev-arrow {
+    left: 20px;
+  }
+  
+  #next-arrow {
+    right: 20px;
+  }

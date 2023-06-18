@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
 </head>
 <body>
-  <app-navbar></app-navbar>
-  <img src="../../assets/dragons.png" alt="">
+    <app-navbar> </app-navbar>
+    <div class="home-page">
+        <p class="main-text">{{ currentText }}</p>
+        
+        <div id="prev-arrow" class="arrow" (click)="prevColor()"><</div>
+        <div id="next-arrow" class="arrow" (click)="nextColor()">></div>
+        
+        <img src="../../assets/Apples_cut_web.png" alt="Apple" class="sliced-apple">
+        <img src="../../assets/JTG-PCP-Thumbnails-appleJuice.png" alt="Apple juice" class="main-picture">
+        <img src="../../assets/apple.png" alt="Apple" class="apple">
+        <img src="../../assets/apple_leave.png" alt="Apple" class="leaf">
+        <img src="../../assets/apple_leaf.png" alt="Apple" class="leaf2">
+        <img src="../../assets/apple_leaf.png" alt="Apple" class="leaf3">
+        <img src="../../assets/apple_leave.png" alt="Apple" class="leaf4">
+        
+    </div>
 </body>
 </html>
